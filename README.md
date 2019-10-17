@@ -156,3 +156,5 @@ Values and photos are returned to the user in a specific standard format, contai
         ]
 }
 ```
+## Tinkering with the code
+For production purposes the amount of information printed to the terminal is limited. If you are working on the code, or want to try something new you can re-enable all debug printing in the code. In the astroplant_camera_module/misc/debug_print.py file, you will find a SEVERITY parameter, which is set to the error level in production code. If you lower the level to debug (1), all extra information will again be printed to the terminal.
